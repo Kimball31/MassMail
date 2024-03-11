@@ -44,7 +44,7 @@ class MailIndividualController extends BaseController
         // REPLACED:
         $model = $this->getModel('MailIndividual');
         
-        die('stopped at getModel MailIndividual');
+        //die('stopped at getModel MailIndividual');
 
         if ($model->sendIndividual()) {   
             $type = 'message';
